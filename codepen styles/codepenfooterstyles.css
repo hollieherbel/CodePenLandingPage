@@ -1,0 +1,61 @@
+.footer {
+    display: flex;
+    background-color: black;
+    height: 166.5px;
+    margin: -8px;
+    margin-bottom: -10px;
+
+}
+
+.footer > .footer-buttons {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+.footer > .footer-buttons > .teams {
+    display: flex;
+    background-color: darkslategrey;
+    height: 60px;
+    width: 400px;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .footer-buttons > .education {
+    display: flex;
+    background-color: darkslategrey;
+    height: 60px;
+    width: 400px;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .footer-buttons > .privacy {
+    display: flex;
+    background-color: darkslategrey;
+    height: 60px;
+    width: 400px;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .footer-buttons > .writing {
+    display: flex;
+    background-color: darkslategrey;
+    height: 60px;
+    width: 400px;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+}
+

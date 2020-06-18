@@ -1,0 +1,103 @@
+
+
+
+.main-content {
+    background-color: darkslategrey;
+    background: linear-gradient(darkslategrey, black);
+    margin: -8px;
+    padding-left: 40px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
+
+}
+
+.main-content > .right-column {
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+}
+
+.main-content > .right-column > .paragraph-one {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+}
+
+.main-content > .right-column > .paragraph-one i {
+    color: darkkhaki;
+
+}
+
+.main-content > .right-column > .paragraph-two {
+    color: gray;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content > .right-column > .info-buttons {
+    display: flex;
+    justify-content: space-between; 
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+    padding-top: 25px;
+
+}
+
+.main-content > .right-column > .info-buttons > .sign-up {
+    background-color: green;
+    display: flex;
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.main-content > .right-column > .info-buttons > .learn-more {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.main-content > .left-column {
+    padding-top: 20px;
+}
+
+
+.main-content > .left-column > .codepen-projects {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 150px;
+
+}
+
+.main-content > .left-column > .codepen-projects > .blue-text {
+    color: lightseagreen;
+}
+
+
+.main-content > .left-column > .codepen-image img {
+    width: 455px;
+    height: 100%;
+    padding-left: 150px;
+
+}
+
+.main-content > .footer-row {
+    color: black;
+}
+

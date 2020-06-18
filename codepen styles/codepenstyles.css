@@ -1,0 +1,130 @@
+
+.navigation-bar {
+    display: flex;
+    background-color: black;
+    margin: -10px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.navigation-bar > .logo img {
+    width: 180px;
+    height: 100%;
+}
+
+.navigation-bar > .second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+    width: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation-bar > .second-column > .explore-button {
+    color: darkkhaki;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.navigation-bar > .second-column > .nav-links {
+    display: flex;
+    color: white;
+    align-content: space-between;
+    
+}
+
+.navigation-bar > .second-column > .nav-links > .link{
+    font-size: 22px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+
+    
+}
+.navigation-bar > .third-column {
+    display: flex;
+    color: gray;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+.navigation-bar > .third-column > .spark-button {
+    padding-right: 10px;
+}
+
+.navigation-bar > .third-column > .spark-down-arrow i {
+    font-size: 120%;
+    padding-top: 5px;
+}
+
+.navigation-bar > .fourth-column {
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.navigation-bar > .fourth-column > .create-button {
+    display: flex;
+    background-color: darkslategrey;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    outline: none;
+    padding-right: 10px;
+    padding-left: 10px;
+
+
+}
+.navigation-bar > .fourth-column > .create-button i {
+    color: green;
+    font-size: 150%;
+    padding-top: 5px;
+}
+
+.navigation-bar > .fourth-column > .search-icon {
+    font-size: 170%;
+}
+
+
+
+
+.navigation-bar > .fourth-column > .log-in-button {
+    display: flex;
+    background-color: darkslategrey;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.navigation-bar > .fourth-column > .sign-up-button {
+    display: flex;
+    background-color: darkslategrey;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    outline: none;
+
+
+}
